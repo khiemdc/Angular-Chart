@@ -1,0 +1,12 @@
+<div class="board">
+  <div class="row" *ngIf="candidates">  
+      <div style="display: block">  
+          <canvas baseChart  
+                  [datasets]="candidates.candidateInterview"  
+                  [labels]="candidates.chartLabels"  
+                  [options]="chartOptions"  
+                  [legend]="chartLegend"  
+                  [chartType]="chartType"></canvas>  
+      </div>  
+  </div>  
+</div>

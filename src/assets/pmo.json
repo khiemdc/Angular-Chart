@@ -1,0 +1,19 @@
+{  
+    "candidateInterview": [  
+        {  
+            "data": [65, 59, 80, 81, 25, 19, 40, 61, 35, 31],  
+            "label": "DEEA"  
+        },  
+        {  
+            "data": [38, 48, 40, 59, 18, 14, 20, 11, 27, 26],  
+            "label": "TBG"  
+        },
+        {  
+            "data": [27, 11, 40, 22, 7, 5, 20, 11, 8, 5],  
+            "label": "SUBs"  
+        }
+        
+    ],  
+    "chartLabels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"
+    ]  
+}  
