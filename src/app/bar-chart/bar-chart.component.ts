@@ -35,7 +35,7 @@ export class BarChartComponent implements OnInit {
     };  
   
     constructor(private http: Http) {  
-        http.get('../../assets/pmo.json').subscribe(result => { 
+        http.get('./pmo.json').subscribe(result => { 
           console.log(result.json());
           this.candidates = result.json() as Candidate;  
         }, error => console.error(error));  
